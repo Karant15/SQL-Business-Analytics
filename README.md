@@ -1,6 +1,6 @@
 # SQL Business Analytics Dashboard
 
-25 advanced SQL queries across two real-world datasets — healthcare and supply chain — demonstrating SQL proficiency from basic aggregations through advanced window functions, CTEs, and subqueries.
+25 advanced SQL queries across two real-world datasets, healthcare and supply chain - demonstrating SQL proficiency from basic aggregations through advanced window functions, CTEs, and subqueries.
 
 ---
 
@@ -20,7 +20,7 @@ This project does exactly that — 25 queries ranging from basic GROUP BY throug
 
 ## Two Real Datasets — One Database
 
-Both datasets loaded into a single SQLite database for cross-domain analysis.
+Both datasets were loaded into a single SQLite database for cross-domain analysis.
 
 | Dataset | Source | Records | Columns |
 |---------|--------|---------|---------|
