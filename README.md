@@ -6,7 +6,7 @@
 
 ## Live Dashboard
 
-[Click here to open the live dashboard](#) - (http://localhost:8501/)
+[Click here to open the live dashboard](https://karan-sql-analytics.streamlit.app/)
 
 ---
 
