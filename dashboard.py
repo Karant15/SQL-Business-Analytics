@@ -11,21 +11,15 @@ warnings.filterwarnings('ignore')
 def get_connection():
     import os
     conn = sqlite3.connect(':memory:')
-    # Try loading from CSV files
-    hc_paths = ['data/cms_healthcare.csv',
-                'data/cms_sample.csv']
-    sc_paths = ['data/supply_chain.csv',
-                'data/supply_chain_sample.csv']
-    for path in hc_paths:
+    for path in ['data/cms_healthcare.csv', 'data/cms_sample.csv']:
         if os.path.exists(path):
             hc = pd.read_csv(path, low_memory=False)
             hc.to_sql('healthcare_providers', conn,
                       if_exists='replace', index=False)
             break
-    for path in sc_paths:
+    for path in ['data/supply_chain.csv', 'data/supply_chain_sample.csv']:
         if os.path.exists(path):
-            sc = pd.read_csv(path, encoding='latin-1',
-                             low_memory=False)
+            sc = pd.read_csv(path, encoding='latin-1', low_memory=False)
             sc.to_sql('supply_chain_orders', conn,
                       if_exists='replace', index=False)
             break
@@ -34,14 +28,6 @@ def get_connection():
 def run_query(query):
     conn = get_connection()
     return pd.read_sql_query(query, conn)
-)
-
-@st.cache_data
-def run_query(query):
-    conn = sqlite3.connect('business_analytics.db')
-    result = pd.read_sql_query(query, conn)
-    conn.close()
-    return result
 
 # ── HEADER ──────────────────────────────────────────────────────
 st.title("🗄️ SQL Business Analytics Dashboard")
