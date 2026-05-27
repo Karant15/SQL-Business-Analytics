@@ -7,10 +7,33 @@ import os
 import warnings
 warnings.filterwarnings('ignore')
 
-st.set_page_config(
-    page_title="SQL Business Analytics",
-    page_icon="🗄️",
-    layout="wide"
+@st.cache_resource
+def get_connection():
+    import os
+    conn = sqlite3.connect(':memory:')
+    # Try loading from CSV files
+    hc_paths = ['data/cms_healthcare.csv',
+                'data/cms_sample.csv']
+    sc_paths = ['data/supply_chain.csv',
+                'data/supply_chain_sample.csv']
+    for path in hc_paths:
+        if os.path.exists(path):
+            hc = pd.read_csv(path, low_memory=False)
+            hc.to_sql('healthcare_providers', conn,
+                      if_exists='replace', index=False)
+            break
+    for path in sc_paths:
+        if os.path.exists(path):
+            sc = pd.read_csv(path, encoding='latin-1',
+                             low_memory=False)
+            sc.to_sql('supply_chain_orders', conn,
+                      if_exists='replace', index=False)
+            break
+    return conn
+
+def run_query(query):
+    conn = get_connection()
+    return pd.read_sql_query(query, conn)
 )
 
 @st.cache_data
