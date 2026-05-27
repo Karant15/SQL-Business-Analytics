@@ -8,9 +8,10 @@ import warnings
 warnings.filterwarnings('ignore')
 
 @st.cache_resource
-def get_connection():
+def get_database():
     import os
-    conn = sqlite3.connect(':memory:')
+    import sqlite3
+    conn = sqlite3.connect(':memory:', check_same_thread=False)
     for path in ['data/cms_healthcare.csv', 'data/cms_sample.csv']:
         if os.path.exists(path):
             hc = pd.read_csv(path, low_memory=False)
@@ -26,7 +27,7 @@ def get_connection():
     return conn
 
 def run_query(query):
-    conn = get_connection()
+    conn = get_database()
     return pd.read_sql_query(query, conn)
 
 # ── HEADER ──────────────────────────────────────────────────────
