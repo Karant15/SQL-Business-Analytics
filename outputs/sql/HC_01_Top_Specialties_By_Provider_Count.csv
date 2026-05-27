@@ -1,0 +1,21 @@
+Specialty,Provider_Count,Total_Services,Avg_Medicare_Payment
+Nurse Practitioner,1320,6650,53.61
+Physician Assistant,686,3874,54.43
+Internal Medicine,472,3217,77.26
+Physical Therapist in Private Practice,450,2356,30.7
+Family Practice,401,3659,57.51
+Emergency Medicine,296,1312,93.1
+Certified Registered Nurse Anesthetist (CRNA),269,838,104.58
+Anesthesiology,176,1051,101.46
+Hospitalist,153,785,90.96
+Diagnostic Radiology,148,5507,46.41
+Optometry,134,806,55.32
+Chiropractic,115,147,25.85
+Orthopedic Surgery,99,1185,154.85
+General Surgery,96,551,129.09
+Neurology,88,760,103.65
+Cardiology,88,1517,84.84
+Psychiatry,86,269,84.8
+Licensed Clinical Social Worker,83,139,69.28
+Ophthalmology,78,1014,129.11
+Pathology,77,955,36.93

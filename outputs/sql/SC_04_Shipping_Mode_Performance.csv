@@ -1,0 +1,5 @@
+Mode,Total_Orders,Late_Orders,Late_Rate_Pct,Avg_Actual_Days,Avg_Scheduled_Days,Avg_Delay_Days,Performance_Rating
+First Class,9268,9193,99.2,2.0,1.0,1.0,Critical
+Second Class,10625,8378,78.9,4.0,2.0,2.0,Critical
+Same Day,3238,1576,48.7,0.5,0.0,0.5,Poor
+Standard Class,26869,10270,38.2,4.0,4.0,-0.0,Acceptable

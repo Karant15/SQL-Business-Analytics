@@ -1,0 +1,25 @@
+Query,Level,Business Question,Rows
+HC_01_Top_Specialties_By_Provider_Count,Basic,Which medical specialties have the most providers nationally?,20
+HC_02_Revenue_By_State,Basic,Which states generate the most Medicare revenue?,20
+HC_03_High_Value_Specialties,Basic,Which specialties command the highest average Medicare payments?,20
+HC_04_Provider_Shortage_States,Intermediate,Which states have the fewest providers relative to patient volume?,20
+HC_05_Specialty_Payment_Ranking,Advanced,Rank specialties by payment within each state using window functions,50
+HC_06_Provider_Performance_Percentile,Advanced,Which providers are in the top 10% for Medicare payments?,30
+HC_07_Running_Total_By_State,Advanced,Show cumulative Medicare revenue as we add states ranked by revenue,20
+HC_08_Drug_Vs_NonDrug_Comparison,Intermediate,How do drug services compare to non-drug services in cost and volume?,2
+SC_01_Late_Delivery_By_Region,Basic,Which regions have the worst on-time delivery performance?,23
+SC_02_Revenue_By_Category,Basic,Which product categories drive the most revenue and profit?,15
+SC_03_Customer_Segment_Analysis,Intermediate,How do customer segments differ in value and behaviour?,3
+SC_04_Shipping_Mode_Performance,Intermediate,Which shipping modes are failing their customers most?,4
+SC_05_Monthly_Revenue_Trend,Intermediate,How has revenue trended month over month?,366
+SC_06_Market_Performance,Basic,Which global markets are most profitable?,5
+SC_07_Revenue_Rank_By_Region,Advanced,Rank regions by revenue using SQL window functions,23
+SC_08_Late_Orders_Lag_Analysis,Advanced,How does late delivery rate change month over month?,366
+SC_09_Running_Revenue_Total,Advanced,Show cumulative revenue building up over time,366
+SC_10_ABC_Inventory_CTE,Advanced,Classify products into ABC inventory categories using CTEs,30
+SC_11_Department_Profitability,Intermediate,Which departments deliver the best profit margins?,11
+XD_01_Healthcare_State_Summary,Intermediate,Executive KPI summary for healthcare - single query all metrics,1
+XD_02_Supply_Chain_KPI_Summary,Intermediate,Executive KPI summary for supply chain - single query all metrics,1
+XD_03_Top_States_Healthcare_Vs_Supply,Advanced,Compare top states in healthcare revenue vs supply chain orders,15
+XD_04_Subquery_Above_Average,Intermediate,Which healthcare specialties pay above the national average?,15
+XD_05_Lead_Revenue_Growth,Advanced,Show next month revenue alongside current for forward planning,366

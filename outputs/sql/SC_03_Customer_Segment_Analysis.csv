@@ -1,0 +1,4 @@
+Segment,Unique_Customers,Total_Orders,Total_Revenue,Avg_Order_Value,Total_Profit,Late_Rate_Pct,Orders_Per_Customer
+Consumer,6637,22645,4544918.42,200.7,490310.38,61.1,3.4
+Corporate,4810,22799,4411823.98,193.51,491739.63,58.2,4.7
+Home Office,1244,4556,860824.23,188.94,91042.81,50.5,3.7

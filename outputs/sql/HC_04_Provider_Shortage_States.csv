@@ -1,0 +1,21 @@
+State,Providers,Total_Patients,Patients_Per_Provider,Shortage_Category
+CA,512,469495,917.0,Critical Shortage
+AR,54,45273,838.4,Critical Shortage
+NE,38,30583,804.8,Critical Shortage
+MD,124,87586,706.3,Critical Shortage
+NV,48,33667,701.4,Critical Shortage
+NY,463,300892,649.9,Critical Shortage
+FL,436,265080,608.0,Critical Shortage
+DC,29,17415,600.5,Critical Shortage
+SC,98,56686,578.4,Critical Shortage
+IA,68,39325,578.3,Critical Shortage
+AL,101,58212,576.4,Critical Shortage
+OK,75,42948,572.6,Critical Shortage
+MS,63,35062,556.5,Critical Shortage
+LA,86,46034,535.3,Critical Shortage
+NJ,192,99148,516.4,Critical Shortage
+AZ,129,66173,513.0,Critical Shortage
+DE,25,12583,503.3,Critical Shortage
+VA,170,85316,501.9,Critical Shortage
+TX,486,240691,495.2,Moderate Shortage
+IN,137,64989,474.4,Moderate Shortage

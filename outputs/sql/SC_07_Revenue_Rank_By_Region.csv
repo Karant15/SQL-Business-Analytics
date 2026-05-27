@@ -1,0 +1,24 @@
+Region,Market,Total_Revenue,Total_Profit,Total_Orders,Revenue_Rank,Dense_Rank,Row_Number
+Western Europe,Europe,1696951.88,184560.33,7820,1,1,1
+Central America,LATAM,1460573.92,157858.01,7491,2,2,2
+South America,LATAM,767796.16,88716.61,3988,3,3,3
+Northern Europe,Europe,614808.26,58938.88,2800,4,4,4
+Oceania,Pacific Asia,588592.37,57216.07,3001,5,5,5
+Southern Europe,Europe,588153.51,74510.51,2729,6,6,6
+Southeast Asia,Pacific Asia,582383.12,64019.97,2803,7,7,7
+South Asia,Pacific Asia,465837.86,47659.05,2355,8,8,8
+Eastern Asia,Pacific Asia,446438.03,45767.68,2145,9,9,9
+Caribbean,LATAM,409768.4,55626.09,2158,10,10,10
+West of USA ,USCA,353323.85,42327.45,2038,11,11,11
+East of USA,USCA,317930.49,34398.32,1826,12,12,12
+US Center ,USCA,272306.43,28463.82,1627,13,13,13
+West Asia,Pacific Asia,270581.68,25316.99,1578,14,14,14
+Eastern Europe,Europe,187876.48,18592.16,1077,15,15,15
+South of  USA ,USCA,186056.13,25580.86,1082,16,16,16
+West Africa,Africa,167694.01,12369.4,972,17,17,17
+North Africa,Africa,146684.17,16634.89,843,18,18,18
+East Africa,Africa,88648.04,12165.57,476,19,19,19
+Central Africa,Africa,75427.54,7403.73,446,20,20,20
+Southern Africa,Africa,55858.84,6316.52,321,21,21,21
+Canada,USCA,43329.74,4010.02,248,22,22,22
+Central Asia,Pacific Asia,30545.71,4639.89,176,23,23,23

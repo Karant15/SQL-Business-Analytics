@@ -1,0 +1,21 @@
+Specialty,Provider_Count,Avg_Payment,Max_Payment,Min_Payment,Total_Patients
+Ambulatory Surgical Center,25,1321.42,19282.84,1.1,20100
+Ambulance Service Provider,34,422.98,5029.22,5.27,34463
+Neurosurgery,35,228.61,1885.12,9.69,13253
+Vascular Surgery,18,215.86,8912.17,0.12,10153
+Orthopedic Surgery,99,154.85,1645.75,0.01,62586
+Radiation Oncology,29,145.35,1595.32,8.4,23019
+Interventional Cardiology,25,131.59,7060.99,0.09,40437
+Ophthalmology,78,129.11,1813.05,0.77,112900
+General Surgery,96,129.09,1610.01,0.1,18580
+Dermatology,65,116.87,1159.31,0.73,107326
+Otolaryngology,44,115.39,3617.85,0.1,29151
+Urology,55,110.19,2228.39,0.02,63345
+Independent Diagnostic Testing Facility (IDTF),17,109.62,1740.48,0.1,26927
+Nephrology,41,109.32,458.58,2.2,27795
+Gastroenterology,62,106.94,548.66,0.51,27664
+Certified Registered Nurse Anesthetist (CRNA),269,104.58,716.05,0.08,22172
+Neurology,88,103.65,994.69,0.1,42602
+Anesthesiology,176,101.46,762.47,0.09,29648
+Pain Management,16,96.24,1311.76,0.09,18890
+Hospice and Palliative Care,15,94.82,274.6,22.6,5138

@@ -1,0 +1,31 @@
+Provider_ID,Provider_Name,Specialty,State,Avg_Payment,Total_Patients,Decile,Performance_Tier
+1003166844,Psa Ambulatory Surgery Center Of Killeen Llc,Ambulatory Surgical Center,TX,4580.72,585,1,Top 10 Percent
+1003478744,Achy Legs Clinics Llc,Ambulatory Surgical Center,TX,3226.57,42,1,Top 10 Percent
+1003232158,"Personalis, Inc.",Clinical Laboratory,CA,3222.74,14,1,Top 10 Percent
+1003292483,"Center For Southside Surgery, Llc",Ambulatory Surgical Center,IN,3069.56,373,1,Top 10 Percent
+1003431206,Reach Air Medical Services Llc,Ambulance Service Provider,CO,2530.64,174,1,Top 10 Percent
+1003017351,"Carlsbad Surgery Center, Llc",Ambulatory Surgical Center,CA,2383.05,190,1,Top 10 Percent
+1003357377,Nephrology Physicians Llc,Ambulatory Surgical Center,IN,2333.42,542,1,Top 10 Percent
+1003077447,Air Evac Ems Inc.,Ambulance Service Provider,OK,2292.79,102,1,Top 10 Percent
+1003103474,"New Albany Surgery Center, Llc",Ambulatory Surgical Center,OH,2187.66,259,1,Top 10 Percent
+1003394933,"Air Evac Ems, Inc.",Ambulance Service Provider,TN,1898.73,184,1,Top 10 Percent
+1003153537,Med-Trans Corporation,Ambulance Service Provider,FL,1895.37,110,1,Top 10 Percent
+1003104381,"Rocky Mountain Holdings, Llc",Ambulance Service Provider,FL,1619.46,702,1,Top 10 Percent
+1003332883,Desert Vista Surgical Center Llc,Ambulatory Surgical Center,AZ,1597.58,1387,1,Top 10 Percent
+1003044322,Gafford,Vascular Surgery,TX,1579.65,604,1,Top 10 Percent
+1003119470,"Mountain West Surgery Center, Llc",Ambulatory Surgical Center,UT,1267.66,708,1,Top 10 Percent
+1003079187,Wasc Llc,Ambulatory Surgical Center,OH,1258.02,898,1,Top 10 Percent
+1003138736,Newport Surgical Partners Llc,Ambulatory Surgical Center,CA,1203.2,201,1,Top 10 Percent
+1003374711,Riverview Surgical Center Llc,Ambulatory Surgical Center,NE,948.64,1744,1,Top 10 Percent
+1003273129,Great Lakes Surgery Center Llc,Ambulatory Surgical Center,MI,924.78,1204,1,Top 10 Percent
+1003420001,"On Beach Surgery Center, Llc",Ambulatory Surgical Center,CA,910.06,246,1,Top 10 Percent
+1003015843,"Northbay Physician's Surgery Center, L.L.C.",Ambulatory Surgical Center,CA,902.76,1698,1,Top 10 Percent
+1003110792,"Creve Coeur Surgery Center, Llc",Ambulatory Surgical Center,MO,746.02,321,1,Top 10 Percent
+1003328642,Clermont Radiology Llc,Independent Diagnostic Testing Facility (IDTF),FL,734.35,317,1,Top 10 Percent
+1003010919,Fredericks,Orthopedic Surgery,CO,684.64,71,1,Top 10 Percent
+1003462136,Paci,General Surgery,UT,674.84,47,1,Top 10 Percent
+1003142530,Farrugia,Interventional Cardiology,NJ,671.3,1114,1,Top 10 Percent
+1003272980,"Pain Centers Of Minnesota - Chaska, Llc",Ambulatory Surgical Center,MN,665.43,270,1,Top 10 Percent
+1003222381,Serna-Gallegos,Cardiac Surgery,PA,608.01,49,1,Top 10 Percent
+1003168907,"Candescent Eye Health Surgicenter, Llc",Ambulatory Surgical Center,MA,597.92,1133,1,Top 10 Percent
+1003098351,Mo,Orthopedic Surgery,DC,567.23,1361,1,Top 10 Percent
