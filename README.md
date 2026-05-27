@@ -6,7 +6,7 @@
 
 ## Live Dashboard
 
-[Click here to open the live dashboard](#) - link updated after Streamlit Cloud deployment
+[Click here to open the live dashboard](#) - (http://localhost:8501/)
 
 ---
 
@@ -38,13 +38,13 @@ Foundations every analyst must know.
 |-------|------------------|----------|
 | HC_01 | Which specialties have the most providers? | GROUP BY COUNT ORDER BY |
 | HC_02 | Which states generate the most Medicare revenue? | SUM GROUP BY multi-column |
-| HC_03 | Which specialties command highest payments? | AVG HAVING GROUP BY |
-| SC_01 | Which regions have worst delivery performance? | SUM ROUND percentage |
+| HC_03 | Which specialties command the highest payments? | AVG HAVING GROUP BY |
+| SC_01 | Which regions have the worst delivery performance? | SUM ROUND percentage |
 | SC_02 | Which product categories drive most revenue? | SUM AVG multi-aggregation |
 | SC_06 | Which global markets are most profitable? | Multi-metric market comparison |
 
 ### Intermediate SQL - 9 Queries
-Business logic, conditional grouping, date functions.
+Business logic, conditional grouping, and date functions.
 
 | Query | Business Question | Concepts |
 |-------|------------------|----------|
@@ -53,10 +53,10 @@ Business logic, conditional grouping, date functions.
 | SC_03 | How do customer segments differ in value? | Multiple aggregations ratio |
 | SC_04 | Which shipping modes are failing? | CASE WHEN performance rating |
 | SC_05 | How has revenue trended monthly? | DATE functions SUBSTR |
-| SC_11 | Which departments have best margins? | Profitability ranking |
+| SC_11 | Which departments have the best margins? | Profitability ranking |
 | XD_01 | Healthcare executive KPI summary | Single query all metrics |
 | XD_02 | Supply chain executive KPI summary | Single query all metrics |
-| XD_04 | Which specialties pay above national average? | Subquery in HAVING clause |
+| XD_04 | Which specialties pay above the national average? | Subquery in HAVING clause |
 
 ### Advanced SQL - 9 Queries
 Window functions, CTEs, cross-domain analysis.
@@ -67,7 +67,7 @@ Window functions, CTEs, cross-domain analysis.
 | HC_06 | Which providers are in top 10%? | NTILE() window function |
 | HC_07 | Cumulative Medicare revenue by state | SUM() OVER running total |
 | SC_07 | Rank regions by revenue | RANK DENSE_RANK ROW_NUMBER |
-| SC_08 | How does late delivery rate change monthly? | LAG() trend analysis |
+| SC_08 | How does the late delivery rate change monthly? | LAG() trend analysis |
 | SC_09 | Cumulative revenue + moving average | Running window 3-month avg |
 | SC_10 | ABC inventory classification | CTE WITH cumulative percentage |
 | XD_03 | Top states - healthcare vs supply chain | Two CTEs + LEFT JOIN |
@@ -186,7 +186,7 @@ Every SQL query in this project maps to a real interview question:
 
 **Karan Trivedi** | MS Data Analytics, Webster University (Dec 2024)
 - Lean Six Sigma Black Belt - Benchmark Six Sigma (2021)
-- 7+ years healthcare, recruitment, and business analytics
+- 7+ years of healthcare, recruitment, and business analytics
 - Former Senior Accounts Manager - 30+ NHS hospital accounts
 
 krntrivedi@gmail.com
