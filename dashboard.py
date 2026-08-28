@@ -64,6 +64,8 @@ c4.metric("Medicare Revenue", f"${float(hc_kpi['Revenue'][0]):,.0f}")
 
 st.markdown("#### Supply Chain Dataset")
 c5,c6,c7,c8 = st.columns(4)
+st.write(sc_kpi)
+st.write(sc_kpi.columns.tolist())
 c5.metric("Total Orders", f"{int(sc_kpi['Orders'][0]):,}")
 c6.metric("Total Revenue", f"${float(sc_kpi['Revenue'][0]):,.0f}")
 c7.metric("Late Delivery Rate", f"{float(sc_kpi['Late_Rate'][0])}%")
